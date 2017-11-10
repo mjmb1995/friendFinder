@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Dating App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mjmb1995/friendFinder.git"
+  },
+  "author": "Mark Bihag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjmb1995/friendFinder/issues"
+  },
+  "homepage": "https://github.com/mjmb1995/friendFinder#readme"
+}
