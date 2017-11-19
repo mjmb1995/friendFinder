@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mjmb1995/friendFinder/issues"
   },
-  "homepage": "https://github.com/mjmb1995/friendFinder#readme"
+  "homepage": "https://github.com/mjmb1995/friendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
 }
