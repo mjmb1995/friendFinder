@@ -17,7 +17,7 @@ var friendsList = [
   },
   {
     name: "Beth",
-    photo: "https://s2-prod.cambridge-news.co.uk/@trinitymirrordigital/chameleon-partnership-widgets/weather/img/grey/12.png",
+    photo: "https://s3.amazonaws.com/media.muckrack.com/mrdaily/images/2014/05/20/journalistwoman.png.700x700_q85_autocrop.png",
     scores: [
     	"2",
     	"2",
@@ -65,7 +65,7 @@ var friendsList = [
   },
   {
     name: "Olga",
-    photo: "http://www.observerbd.com/2016/09/29/1475079729.jpg",
+    photo: "https://s3.amazonaws.com/media.muckrack.com/mrdaily/images/2014/05/20/journalistwoman.png.700x700_q85_autocrop.png",
     scores: [
     	"4",
     	"1",
@@ -113,7 +113,7 @@ var friendsList = [
   },
   {
     name: "Millie",
-    photo: "https://pbs.twimg.com/profile_images/655643418480111616/h1WZaTtp_400x400.jpg",
+    photo: "https://s3.amazonaws.com/media.muckrack.com/mrdaily/images/2014/05/20/journalistwoman.png.700x700_q85_autocrop.png",
     scores: [
         "2",
         "2",
@@ -145,7 +145,7 @@ var friendsList = [
   },
   {
     name: "Kalluie",
-    photo: "https://images-na.ssl-images-amazon.com/images/I/613v0krW1qL._SL1500_.jpg",
+    photo: "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-partnership-widgets/weather/img/grey/29.png",
     scores: [
         "2",
         "4",

@@ -26,7 +26,7 @@ module.exports = function(app) {
     var newestUser = friendsList[0]
     var compareResults = [];
 
-    for (var i = 1; i < friendsList; i++) {
+    for (var i = 1; i < friendsList.length; i++) {
       var differenceArray = []
 
       for (var j = 0; j < 10; j++){
@@ -34,11 +34,14 @@ module.exports = function(app) {
         differenceArray.push(diff)
       }
 
-      friendsList[i].compare = differenceArray.reduce(function(sum, value) {
+      var compare = differenceArray.reduce(function(sum, value) {
         return sum + value;
       }, 1);
+      friendsList[i].compare = compare
+    
       compareResults.push(friendsList[i].compare)
     }
+    console.log(friendsList[i]);
 
     var sortArray = compareResults.sort(function(a, b){
       return (a - b)
@@ -59,7 +62,7 @@ module.exports = function(app) {
       friendsList.splice(1, 0, bestMatch)
     }
     sort();
-    
+
     var keepKeys = ['name', 'photo', 'scores'];
 
     for(var i = 0; i < friendsList.length; i++){
